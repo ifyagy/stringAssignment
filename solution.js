@@ -52,7 +52,13 @@ let remove1 = searchTxt.substring(10, 13).replace("nic", "Nick");
 console.log(remove1);
 let remove2 = searchTxt.substring(13, 17).replace("CAGE", "Cage");
 console.log(remove2);
-console.log(remove1, remove2);
+let sum = `${remove1} ${remove2};`
+console.log(sum);
+let findIndex = sum.indexOf("Nick");
+let findIndex2 = sum.indexOf("Cage");
+console.log(findIndex);
+console.log(findIndex2);
+
 
 //9. What is the difference between substr(), substring(), and slice()?
 
